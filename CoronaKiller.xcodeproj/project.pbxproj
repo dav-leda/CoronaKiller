@@ -15,6 +15,18 @@
 		52BC6A2D25059DB0003CF01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A2B25059DB0003CF01A /* Main.storyboard */; };
 		52BC6A2F25059DB2003CF01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A2E25059DB2003CF01A /* Assets.xcassets */; };
 		52BC6A3225059DB2003CF01A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A3025059DB2003CF01A /* LaunchScreen.storyboard */; };
+		52BC6A3B25059FCA003CF01A /* musica-fondo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A3A25059FCA003CF01A /* musica-fondo.mp3 */; };
+		52BC6A3D25059FD4003CF01A /* golf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A3C25059FD4003CF01A /* golf.mp3 */; };
+		52BC6A3F25059FDB003CF01A /* disparo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A3E25059FDB003CF01A /* disparo.mp3 */; };
+		52BC6A4125059FE4003CF01A /* plop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A4025059FE4003CF01A /* plop.mp3 */; };
+		52BC6A432505A01C003CF01A /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6A422505A01C003CF01A /* GameOverScene.swift */; };
+		52BC6A452505A075003CF01A /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6A442505A075003CF01A /* MainMenuScene.swift */; };
+		52BC6A492505A0BA003CF01A /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A482505A0BA003CF01A /* GameOverScene.sks */; };
+		52BC6A4C2505A230003CF01A /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A4B2505A230003CF01A /* MainMenuScene.sks */; };
+		52BC6A4E2505A365003CF01A /* Globulos.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A4D2505A364003CF01A /* Globulos.sks */; };
+		52BC6A502505A45F003CF01A /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A4F2505A45F003CF01A /* Explosion.sks */; };
+		52BC6A512505A4A8003CF01A /* ARCADE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A4A2505A138003CF01A /* ARCADE.TTF */; };
+		52BC6A532505ABB0003CF01A /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6A522505ABB0003CF01A /* gameover.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,18 @@
 		52BC6A2E25059DB2003CF01A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52BC6A3125059DB2003CF01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52BC6A3325059DB2003CF01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BC6A3A25059FCA003CF01A /* musica-fondo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "musica-fondo.mp3"; sourceTree = "<group>"; };
+		52BC6A3C25059FD4003CF01A /* golf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = golf.mp3; sourceTree = "<group>"; };
+		52BC6A3E25059FDB003CF01A /* disparo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = disparo.mp3; sourceTree = "<group>"; };
+		52BC6A4025059FE4003CF01A /* plop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = plop.mp3; sourceTree = "<group>"; };
+		52BC6A422505A01C003CF01A /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		52BC6A442505A075003CF01A /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		52BC6A482505A0BA003CF01A /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		52BC6A4A2505A138003CF01A /* ARCADE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARCADE.TTF; sourceTree = "<group>"; };
+		52BC6A4B2505A230003CF01A /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		52BC6A4D2505A364003CF01A /* Globulos.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Globulos.sks; sourceTree = "<group>"; };
+		52BC6A4F2505A45F003CF01A /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		52BC6A522505ABB0003CF01A /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +85,36 @@
 			isa = PBXGroup;
 			children = (
 				52BC6A2125059DB0003CF01A /* AppDelegate.swift */,
-				52BC6A2325059DB0003CF01A /* GameScene.sks */,
 				52BC6A2525059DB0003CF01A /* Actions.sks */,
 				52BC6A2725059DB0003CF01A /* GameScene.swift */,
-				52BC6A2925059DB0003CF01A /* GameViewController.swift */,
+				52BC6A2325059DB0003CF01A /* GameScene.sks */,
+				52BC6A442505A075003CF01A /* MainMenuScene.swift */,
+				52BC6A4B2505A230003CF01A /* MainMenuScene.sks */,
+				52BC6A4D2505A364003CF01A /* Globulos.sks */,
+				52BC6A4F2505A45F003CF01A /* Explosion.sks */,
+				52BC6A422505A01C003CF01A /* GameOverScene.swift */,
+				52BC6A482505A0BA003CF01A /* GameOverScene.sks */,
 				52BC6A2B25059DB0003CF01A /* Main.storyboard */,
+				52BC6A2925059DB0003CF01A /* GameViewController.swift */,
 				52BC6A2E25059DB2003CF01A /* Assets.xcassets */,
 				52BC6A3025059DB2003CF01A /* LaunchScreen.storyboard */,
+				52BC6A3925059F94003CF01A /* Sonidos */,
 				52BC6A3325059DB2003CF01A /* Info.plist */,
+				52BC6A4A2505A138003CF01A /* ARCADE.TTF */,
 			);
 			path = CoronaKiller;
+			sourceTree = "<group>";
+		};
+		52BC6A3925059F94003CF01A /* Sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				52BC6A522505ABB0003CF01A /* gameover.mp3 */,
+				52BC6A3C25059FD4003CF01A /* golf.mp3 */,
+				52BC6A3E25059FDB003CF01A /* disparo.mp3 */,
+				52BC6A4025059FE4003CF01A /* plop.mp3 */,
+				52BC6A3A25059FCA003CF01A /* musica-fondo.mp3 */,
+			);
+			path = Sonidos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,7 +144,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "David Leda";
 				TargetAttributes = {
 					52BC6A1D25059DB0003CF01A = {
@@ -131,10 +175,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BC6A3D25059FD4003CF01A /* golf.mp3 in Resources */,
+				52BC6A3F25059FDB003CF01A /* disparo.mp3 in Resources */,
+				52BC6A4125059FE4003CF01A /* plop.mp3 in Resources */,
 				52BC6A2D25059DB0003CF01A /* Main.storyboard in Resources */,
 				52BC6A2425059DB0003CF01A /* GameScene.sks in Resources */,
+				52BC6A502505A45F003CF01A /* Explosion.sks in Resources */,
+				52BC6A3B25059FCA003CF01A /* musica-fondo.mp3 in Resources */,
 				52BC6A2F25059DB2003CF01A /* Assets.xcassets in Resources */,
 				52BC6A3225059DB2003CF01A /* LaunchScreen.storyboard in Resources */,
+				52BC6A4C2505A230003CF01A /* MainMenuScene.sks in Resources */,
+				52BC6A492505A0BA003CF01A /* GameOverScene.sks in Resources */,
+				52BC6A532505ABB0003CF01A /* gameover.mp3 in Resources */,
+				52BC6A4E2505A365003CF01A /* Globulos.sks in Resources */,
+				52BC6A512505A4A8003CF01A /* ARCADE.TTF in Resources */,
 				52BC6A2625059DB0003CF01A /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,8 +200,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BC6A452505A075003CF01A /* MainMenuScene.swift in Sources */,
 				52BC6A2825059DB0003CF01A /* GameScene.swift in Sources */,
 				52BC6A2A25059DB0003CF01A /* GameViewController.swift in Sources */,
+				52BC6A432505A01C003CF01A /* GameOverScene.swift in Sources */,
 				52BC6A2225059DB0003CF01A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +256,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -224,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -260,6 +317,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -278,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,6 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F4M545989C;
 				INFOPLIST_FILE = CoronaKiller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dedalolab.CoronaKiller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,6 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F4M545989C;
 				INFOPLIST_FILE = CoronaKiller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dedalolab.CoronaKiller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
